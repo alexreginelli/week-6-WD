@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="myStyles.css" rel="stylesheet" >
+
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+
+		//this is a var declare and value assigned
+		var name = "Jo";
+		document.write("Hi " + name+ "\n how are you? "); //making use of the variable
+    var origin = prompt("Where are you from?");//addressing some value to the variable from the user
+    document.write("<p>I am from "+origin+"!</p>");//using the value from the value on the page
+    var age = prompt("How old are you?");
+    var fullStatement = name + ", " + origin + ", " + age +".";//creating a new variable using the previous variables
+    document.write("<p>Give your data: "+fullStatement+"</p>");//printing on video
+	</script>
+  </head>
+  <body>
+	<a href="page2.html">Page 2</a>
+
+
+  </body>
+</html>
